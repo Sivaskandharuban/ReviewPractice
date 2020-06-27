@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
+    <title>Hello App Engine</title>
+  </head>
+
+  <body>   
+    <label><b>Enter a Message</b></label>
+    <input type="text" name="message" id="user_input">  <br>  
+  
+  
+  <input type="submit" onclick="showInput()"><br>
+  <div id='display'>
+  
+  </div>
+
+  
+  
+
+  <script>
+  
+  function showInput()
+  {
+  var xhr = new XMLHttpRequest();
+
+  xhr.open('GET','http://dummy.restapiexample.com/api/v1/employees', true);
+  xhr.setRequestHeader("Content-Type", "application/json");
+  xhr.send();
+
+  xhr.onload = function() {
+
+
+  let responseobj = this.response;
+  if (this.status == 200) {
+  document.getElementById('display').innerHTML = responseobj;
+  } else if (this.status == 404) {
+  document.getElementById('res').value = '<h1>Not Found -- 404 Error</h1>'
+  }
+  }
+
+  }
+    //function showInput() {
+
+      //var xhttp = new XMLHttpRequest(); 
+      
+     // console.log(ro);
+      
+     // xhttp.onload = function( {
+    	  
+       // if (this.readyState == 4 && this.status == 200) {
+        	
+        //	let ro = JSON.parse(this.response);
+        //  document.getElementById('display').innerHTML = ro;
+       // }
+
+       // xhttp.open("GET", "https://dummy.restapiexample.com/api/v1/employees", true);  
+       // xhttp.setRequestHeader("Content-Type", "application/json");
+//xhttp.send();
+
+     // };
+      
+    //}
+  </script>
+  </body>
+</html>
