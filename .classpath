@@ -8,9 +8,9 @@
 	</classpathentry>
 	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
 		<attributes>
+			<attribute name="test" value="true"/>
 			<attribute name="optional" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="test" value="true"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
@@ -29,5 +29,55 @@
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Siva/Downloads/jackson-core-asl-1.9.13.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Siva/Downloads/jackson-mapper-asl-1.9.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Siva/Downloads/auto-value-annotations-1.6.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Siva/Downloads/commons-codec-1.11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Siva/Downloads/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Siva/Downloads/datastore-v1-proto-client-1.6.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Siva/Downloads/error_prone_annotations-2.3.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Siva/Downloads/gax-1.49.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Siva/Downloads/google-cloud-core-1.91.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Siva/Downloads/google-cloud-datastore-1.101.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Siva/Downloads/google-http-client-protobuf-1.33.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Siva/Downloads/google-oauth-client-1.30.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Siva/Downloads/grpc-api-1.24.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Siva/Downloads/grpc-context-1.22.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Siva/Downloads/opencensus-contrib-http-util-0.24.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Siva/Downloads/protobuf-java-util-3.10.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Siva/Downloads/animal-sniffer-annotations-1.18.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Siva/Downloads/annotations-4.1.1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Siva/Downloads/api-common-1.8.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Siva/Downloads/checker-compat-qual-2.5.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Siva/Downloads/failureaccess-1.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Siva/Downloads/gax-httpjson-0.66.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Siva/Downloads/google-api-client-1.30.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Siva/Downloads/google-auth-library-credentials-0.18.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Siva/Downloads/google-auth-library-oauth2-http-0.18.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Siva/Downloads/google-cloud-core-http-1.91.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Siva/Downloads/google-http-client-1.32.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Siva/Downloads/google-http-client-appengine-1.32.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Siva/Downloads/google-http-client-jackson2-1.33.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Siva/Downloads/grpc-core-1.24.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Siva/Downloads/gson-2.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Siva/Downloads/guava-28.1-android.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Siva/Downloads/httpclient-4.5.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Siva/Downloads/httpcore-4.4.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Siva/Downloads/j2objc-annotations-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Siva/Downloads/jackson-core-2.10.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Siva/Downloads/javax.annotation-api-1.3.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Siva/Downloads/jsr305-3.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Siva/Downloads/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Siva/Downloads/objectify-6.0.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Siva/Downloads/opencensus-api-0.24.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Siva/Downloads/opencensus-contrib-grpc-metrics-0.21.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Siva/Downloads/perfmark-api-0.17.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Siva/Downloads/protobuf-java-3.10.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Siva/Downloads/proto-google-cloud-datastore-v1-0.84.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Siva/Downloads/proto-google-common-protos-1.17.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Siva/Downloads/proto-google-iam-v1-0.13.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Siva/Downloads/slf4j-api-1.7.29.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Siva/Downloads/spymemcached-2.12.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Siva/Downloads/threetenbp-1.3.3.jar"/>
 	<classpathentry kind="output" path="target/SpringMVC-0.1.0-SNAPSHOT/WEB-INF/classes"/>
 </classpath>

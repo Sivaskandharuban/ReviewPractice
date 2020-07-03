@@ -88,6 +88,32 @@
 			<artifactId>spring-webmvc</artifactId>
 			<version>4.1.8.RELEASE</version>
 		</dependency>
+		
+		 <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
+<dependency>
+    <groupId>com.fasterxml.jackson.core</groupId>
+    <artifactId>jackson-databind</artifactId>
+    <version>2.9.10.5</version>
+</dependency>
+		 
+		 <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core -->
+<dependency>
+    <groupId>com.fasterxml.jackson.core</groupId>
+    <artifactId>jackson-core</artifactId>
+    <version>2.9.10</version>
+</dependency>
+		 
+		 <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-mapper -->
+<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-mapper-asl -->
+
+<!-- https://mvnrepository.com/artifact/org.codehaus.jackson/jackson-mapper-asl -->
+<dependency>
+    <groupId>org.codehaus.jackson</groupId>
+    <artifactId>jackson-mapper-asl</artifactId>
+    <version>1.9.13</version>
+</dependency>
+
+
 
 
 		<dependency>
